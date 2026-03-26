@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { X, Save } from 'lucide-react';
-import { supabase } from '../supabase/client';
-import toast from 'react-hot-toast';
 
 interface Relator {
   id?: number;

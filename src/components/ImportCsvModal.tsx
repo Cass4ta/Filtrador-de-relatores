@@ -1,9 +1,7 @@
 import { useState, useRef } from 'react';
 import { X, Upload, Download, CheckCircle, AlertCircle } from 'lucide-react';
 import Papa from 'papaparse';
-import { supabase } from '../supabase/client';
 import { motion } from 'framer-motion';
-import toast from 'react-hot-toast';
 
 interface Relator {
   id: number;
